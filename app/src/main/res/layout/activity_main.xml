@@ -1130,7 +1130,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/calibri"
-                                    android:text="BMW Group"
+                                    android:text="M Divition Group"
                                     android:textColor="#a4a7b5"
                                     android:textSize="12sp" />
 
