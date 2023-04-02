@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InvalidId">
+        <TextView
+            android:id="@+id/home"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informasi Petunjuk"
+            android:textColor="#A9A9A9"/>
+        <TextView
+            android:layout_below="@id/home"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="SEATS, COCKPIT AND STEERING WHEEL"
+            android:textColor="#4079A3"
+            />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="400dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="333dp"
+                                android:layout_height="180dp"
+                                android:layout_marginLeft="40dp"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/bmw_seat" />
+
+                            <View
+                                android:layout_below="@+id/title_find"
+                                android:layout_marginLeft="75dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="1.5in"
+                                android:visibility="visible"
+                                android:layout_height="2px"
+                                android:background="#646464"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="400dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Mengatur Electronic Seat BMW"
+                                android:layout_marginLeft="40dp"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Majukan atau memundurkan bangku, menyetel kemiringan penyangga punggung, ketinggian tempat duduk sampai lumbar support."
+                                android:layout_marginLeft="40dp"
+                                android:textSize="18dp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="BMW Group"
+                                android:layout_marginLeft="40dp"
+                                android:textSize="15dp"
+                                android:textColor="#A9A9A9"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="400dp"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:orientation="vertical">
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+
+            </LinearLayout>
